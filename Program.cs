@@ -9,10 +9,11 @@ namespace UCLA.EA.Interview
         public static void Main(string[] args)
         {
             var processors = new Dictionary<string,ICommand> {
-                { "sort", new SortCommand() }
+                { "sort", new SortCommand() },
+                { "random", new RandomCommand() }
             };
 
-            processors[args[0]].Run(args.Skip(1));
+            processors[args[0]].Run(args.Skip(1).ToArray());
         }
     }
 }
