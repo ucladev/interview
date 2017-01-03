@@ -1,0 +1,13 @@
+*.swp
+*.*~
+bin/
+obj/
+project.lock.json
+.DS_Store
+
+node_modules/
+out/
+yarn.lock
+
+Debug.Console/
+
