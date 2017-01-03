@@ -6,14 +6,16 @@
   },
   "dependencies": {},
   "frameworks": {
-    "netcoreapp1.1": {
+    "netcoreapp1.0": {
       "dependencies": {
         "Microsoft.NETCore.App": {
-          "type": "platform",
-          "version": "1.1.0"
+          "version": "1.0.1"
         }
       },
       "imports": "dnxcore50"
     }
+  },
+  "runtimes": {
+    "ubuntu.16.04-x64": {}
   }
 }
