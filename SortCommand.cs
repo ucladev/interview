@@ -17,7 +17,7 @@ namespace UCLA.EA.Interview
                 numbers.Add(int.Parse(input));
             }
 
-            numbers.Sort();
+            // do the sorting...
 
             foreach(var number in numbers) {
                 Console.WriteLine(number);
