@@ -14,10 +14,7 @@ namespace UCLA.EA.Interview
                 if(string.IsNullOrWhiteSpace(input)) {
                     break;
                 }
-                int number = 0;
-                if(int.TryParse(input, out number)) {
-                    numbers.Add(number);
-                }
+                numbers.Add(int.Parse(input));
             }
 
             numbers.Sort();
